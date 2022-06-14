@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView1"
+        android:layout_centerInParent="false"
+        android:layout_centerVertical="false"
+        android:scrollIndicators="none"
+        android:scrollbars="none">
+
+
+        <RelativeLayout
+            android:id="@+id/containerscroll"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/abc_action_bar_default_height_material">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/toplayout"
+                android:background="@mipmap/homebg2"
+                android:layout_below="@id/containerscroll">
+                <TextView
+                    android:text="@string/home_top_title"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/texttop"
+                    android:textColor="@android:color/background_dark"
+                    android:fadeScrollbars="true"
+                    android:typeface="serif"
+                    android:textDirection="ltr"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/abc_action_bar_content_inset_material"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_action_button_min_height_material" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hometopspace"
+                android:layout_below="@id/toplayout"
+                android:importantForAutofill="yes"
+                android:background="@android:color/black"
+                android:minHeight="@dimen/abc_action_bar_content_inset_material" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout1"
+                android:layout_below="@id/hometopspace" >
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvhomeservicesp"
+                    android:text="@string/contact_title"
+                    android:textAlignment="center"
+                    android:justificationMode="inter_word"
+                    android:padding="@dimen/abc_action_bar_icon_vertical_padding_material"
+                    android:background="@android:color/background_light"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/contactgetintouchspace"
+                android:layout_below="@id/linearLayout1"
+                android:importantForAutofill="yes"
+                android:background="@android:color/black"
+                android:minHeight="@dimen/abc_action_bar_content_inset_material"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout2"
+                android:layout_margin="@dimen/abc_action_bar_stacked_max_height"
+                android:padding="@dimen/abc_action_bar_icon_vertical_padding_material"
+                android:layout_below="@id/contactgetintouchspace"
+                android:background="@android:color/background_light">
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvhomeservicesp"
+                    android:text="@string/contact_phone_title"
+                    android:textAlignment="center"
+                    android:justificationMode="inter_word"
+                    android:padding="@dimen/abc_action_bar_icon_vertical_padding_material"
+                    android:background="@android:color/background_light"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:src="@mipmap/ic_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView1"
+                    android:contentDescription="@string/app_name"/>
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView1"
+                    android:text="@string/contact_phone_number1"
+                    android:textAlignment="center" />
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView12"
+                    android:text="@string/contact_phone_number2"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout3"
+                android:layout_margin="@dimen/abc_action_bar_stacked_max_height"
+                android:padding="@dimen/abc_action_bar_icon_vertical_padding_material"
+                android:layout_below="@id/linearLayout2"
+                android:background="@android:color/background_light">
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvhomeservicesp"
+                    android:text="@string/contact_email_title"
+                    android:textAlignment="center"
+                    android:justificationMode="inter_word"
+                    android:padding="@dimen/abc_action_bar_icon_vertical_padding_material"
+                    android:background="@android:color/background_light"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:src="@mipmap/ic_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView1"
+                    android:contentDescription="@string/app_name" />
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView1"
+                    android:text="@string/contact_email_e1"
+                    android:textAlignment="center" />
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView11"
+                    android:text="@string/contact_email_e2"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout4"
+                android:layout_margin="@dimen/abc_action_bar_stacked_max_height"
+                android:padding="@dimen/abc_action_bar_icon_vertical_padding_material"
+                android:layout_below="@id/linearLayout3"
+                android:background="@android:color/background_light">
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvhomeservicesp"
+                    android:text="@string/contact_Address_title"
+                    android:textAlignment="center"
+                    android:justificationMode="inter_word"
+                    android:padding="@dimen/abc_action_bar_icon_vertical_padding_material"
+                    android:background="@android:color/background_light"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:src="@mipmap/ic_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView1"
+                    android:contentDescription="@string/app_name"/>
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView1"
+                    android:text="@string/contact_Address_ad1"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+               <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout7"
+                android:layout_below="@id/linearLayout4"
+                android:layout_marginTop="@dimen/abc_action_bar_icon_vertical_padding_material"
+                android:gravity="center">
+                <TextView
+                    android:text="@string/home_followusweb_title"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView111"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark"
+                    android:includeFontPadding="false"
+                    android:paddingVertical="@dimen/abc_action_bar_icon_vertical_padding_material"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/abc_action_bar_elevation_material" />
+                <ImageButton
+                    android:src="@mipmap/ic_insta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButton1"
+                    android:contentDescription="@string/app_name"
+                    android:cropToPadding="false"
+                    android:layout_marginBottom="0.0dp"
+                    android:background="@android:color/background_light"
+                    android:layout_gravity="center" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButton2"
+                    android:contentDescription="@string/app_name"
+                    android:src="@mipmap/ic_whtsapp"
+                    android:background="@android:color/background_light"
+                    android:layout_gravity="center" />
+                <ImageButton
+                    android:src="@mipmap/ic_fb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButton3"
+                    android:contentDescription="@string/app_name"
+                    android:background="@android:color/background_light"
+                    android:layout_gravity="center" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButton4"
+                    android:contentDescription="@string/app_name"
+                    android:src="@mipmap/ic_twitter"
+                    android:background="@android:color/background_light"
+                    android:layout_gravity="center" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+   
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="?android:attr/windowBackground"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/navigation" />
+
+</RelativeLayout>

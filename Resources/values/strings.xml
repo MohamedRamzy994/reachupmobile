@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">ReachUp</string>
+    <string name="home_top_title">reachUp Marketing Agency</string>
+  
+      <string name="title_home">Home</string>
+    <string name="title_dashboard">Services</string>
+  <string name="title_location">Location</string>
+  
+<string name="title_notifications">Contact</string>
+    <string name="home_top_servicesbtn">Services</string>
+    <string name="home_top_featuresbtn">Features</string>
+    <string name="home_services_title">Services</string>
+    <string name="home_services_text">Our Core expertise lies in connecting
+  your brand to your business with the great opportunities the web offers .
+  creative branding of your brand involves your website in the integrated 
+  process to enhance your presence among competitors .
+  
+  </string>
+
+  <string name="home_services_text2">reachUp marketing Agency
+   is designed for elegence , simplicity and clarity , with an emphasis on improving
+   the user experience for our applications .
+  
+  </string>
+
+  <string name="home_services_cat1">Design</string>
+  <string name="home_services_cat2">Web</string>
+  <string name="home_services_cat3">Mobile</string>
+  <string name="home_services_cat4">Marketing</string>
+  <string name="home_services_cat5">Graphic</string>
+  <string name="home_services_cat6">Hosting</string>
+  <string name="home_howitworks_title">How it Works </string>
+  <string name="home_howitworks_note1">Build condifdence through good technical support .</string>
+  <string name="home_howitworks_note2">Adapting the programs to suit client needs .</string>
+  <string name="home_howitworks_note3">Easy to develop and update applications .</string>
+  <string name="home_howitworks_note4">Scalabiltiy applications for modernization .</string>
+  <string name="home_howitworks_note5">Flexible solutions to meet customers needs .</string>
+  <string name="home_videoshow_title">About</string>
+  <string name="home_videoshow_apps">Apps</string>
+  <string name="home_videoshow_progs">Progs</string>
+  <string name="home_videoshow_clients">Clients</string>
+  <string name="home_videoshow_testmonials">Reviews</string>
+  
+  <string name="home_videoshow_appsnumber">+20</string>
+  <string name="home_videoshow_progsnumber">+25</string>
+  <string name="home_videoshow_clientsnumber">+30</string>
+  <string name="home_videoshow_testmonialsnumber">+55</string>
+  
+  <string name="home_followusweb_title">Follow Us</string>
+  <string name="home_followusweb_url">www.reachupweb.com</string>
+
+  <string name="services_cat1_details">Web Design services ,
+  printed identity and design of mobile application interfaces </string>
+  <string name="services_cat2_details"> special programing services , 
+  programing of web and desktop applications</string>
+  <string name="services_cat3_details">we provide mobile application programming services for 
+  Android , Ios , Windows phone</string>
+  <string name="services_cat4_details"> Build a strong relationship with your
+  audience and fans through a stratefic planning for your social networks  </string>
+  <string name="services_cat5_details">creating your motion graphics with attractive visuals and
+  interactive animations </string>
+  <string name="services_cat6_details">cloud hosting services , servers , VPS , domain reservation services and technical support for hosting </string>
+
+  <string name="services_cat1">Web Design</string>
+  <string name="services_cat2">Development</string>
+  <string name="services_cat3">Mobile Applications</string>
+  <string name="services_cat4">DigitalMarketing</string>
+  <string name="services_cat5">Graphic Design</string>
+  <string name="services_cat6">Hosting Domains</string>
+  
+  <string name="contact_title">Get in touch with us </string>
+  <string name="contact_phone_title">Phone</string>
+   <string name="contact_phone_number1">+01061876572</string>
+   <string name="contact_phone_number2">+01027687484</string>
+  <string name="contact_email_title">Email</string>
+  <string name="contact_email_e1">info@reachupweb.com</string>
+  <string name="contact_email_e2">support@reachupweb.com</string>
+  <string name="contact_Address_title">Address</string>
+  <string name="contact_Address_ad1">Kolayet Adab Street - Mansoura - Dakahlia Governorate - Egypt </string>
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+</resources>
